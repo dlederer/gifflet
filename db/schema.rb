@@ -14,6 +14,8 @@
 ActiveRecord::Schema.define(:version => 20131123032533) do
 
   create_table "choices", :force => true do |t|
+    t.string   "jif"
+    t.string   "descrip"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
